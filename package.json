@@ -1,0 +1,11 @@
+{
+  "name": "new-year-new-me",
+  "version": "1.0.0",
+  "description": "New Years resolution tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobie Tsuzuki",
+  "license": "ISC"
+}
