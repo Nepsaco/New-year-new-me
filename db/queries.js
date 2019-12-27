@@ -1,10 +1,17 @@
-const knex = require('./knex')
+const database = require('./knex')
 
 module.exports = {
 
-    User: {
+    user: {
         getAll : () => {
-            return knex('user')
+            return database('user')
         }
+    },
+
+    resolutions: {
+        getAll: () => {
+            return database('resolutions')
+        }
+
     }
 }
